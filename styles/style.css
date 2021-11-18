@@ -1,85 +1,78 @@
 /* mobile first */
 
 * {
-
-    box-sizing: border-box;
-    
+  box-sizing: border-box;
 }
 body {
-    margin: 0;
-    padding: 0;
-    color: white;
+  margin: 0;
+  padding: 0;
+  color: white;
+  background-color: black;
+  font-family: "Raleway", sans-serif;
 }
 header img {
-    width: 100%;
-    height: 100vh;
-    object-fit: cover;
-  }
-  
-  header {
-    position: relative;
-  }
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+
+header {
+  position: relative;
+}
 .nav {
-    position: absolute;
-    justify-content: space-between;
-    display: flex;
-    width: 100%;
-    padding: 1rem;
-    
-  }
-  
-  .nav-toggle {
-    position: absolute;
-    cursor: pointer;
-    
-  }
+  position: absolute;
+  justify-content: space-between;
+  display: flex;
+  width: 100%;
+  padding: 1rem;
+}
 
-  svg {
-    width: 1.5rem;
-    fill: white;
-  }
-  
-  .close {
-    display: none;
-  }
- 
- 
-  
-  .nav-checkbox {
-    display: none;
-  }
- 
-  .nav-menu li {
-    list-style: none;
-    display: none;
-    
-  }
-  .logotype {
-      width: 40%;
-      margin: 50px;
-      padding-top: 50px;
-  }
-  
-  a {
-    text-decoration: none;
-    color: inherit;
-    font-size: 1.2rem;
-  }
-  #nav-checkbox:checked ~ ul.nav-menu li {
-    display: block;
-  }
-  #nav-checkbox:checked ~ label.nav-toggle .close {
-    display: block;
-  }
-  #nav-checkbox:checked ~ label.nav-toggle .menu {
-    display: none;
-  }
-  li:hover a {
-    color: rgb(112, 111, 111);
-  }
+.nav-toggle {
+  position: absolute;
+  cursor: pointer;
+}
 
-  .menu-wrapper{
-    display: flex;
-    
-    
-  }
+svg {
+  width: 1.5rem;
+  fill: white;
+}
+
+.close {
+  display: none;
+}
+
+.nav-checkbox {
+  display: none;
+}
+
+.nav-menu li {
+  list-style: none;
+  display: none;
+}
+.logotype {
+  width: 40%;
+  margin: 50px;
+  padding-top: 50px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  font-size: 1.2rem;
+}
+#nav-checkbox:checked ~ ul.nav-menu li {
+  display: block;
+}
+#nav-checkbox:checked ~ label.nav-toggle .close {
+  display: block;
+}
+#nav-checkbox:checked ~ label.nav-toggle .menu {
+  display: none;
+}
+li:hover a {
+  color: rgb(112, 111, 111);
+}
+
+.menu-wrapper {
+  display: flex;
+}

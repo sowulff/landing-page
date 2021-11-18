@@ -16,9 +16,47 @@
   position: absolute;
   width: 100%;
   height: 100%;
+  object-fit: cover;
 }
 
 .boende {
-  color: white;
-  font-family: Raleway;
+  position: relative;
+  width: 90%;
+  margin: auto;
+  text-align: center;
+}
+
+.boende h3 {
+  margin-top: 30px;
+}
+.boende p {
+  margin-bottom: 50px;
+}
+
+.info-ruta {
+  border: 5px solid;
+  border-color: #ba9284;
+  margin: 5%;
+  padding: 30px;
+  text-align: center;
+}
+
+.spelningar {
+  background-color: red;
+  width: 100%;
+  height: 100%;
+}
+
+.box {
+  position: relative;
+  width: 90%;
+  margin: auto;
+}
+
+.box:after {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+  background-color: #ba9284;
+  margin-top: 20px;
 }
