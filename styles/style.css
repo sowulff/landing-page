@@ -1,0 +1,60 @@
+/* mobile first */
+
+* {
+
+    box-sizing: border-box;
+    
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+
+  .nav-toggle {
+    position: absolute;
+    cursor: pointer;
+    margin: 0rem 1rem;
+    
+  }
+  svg {
+    width: 1.5rem;
+    fill: black;
+  }
+  
+  .close {
+    display: none;
+  }
+  
+  .menu {
+    margin-top: 0.2rem;
+  }
+  
+  .nav-checkbox {
+    display: none;
+  }
+ 
+  .nav-menu li {
+    list-style: none;
+    display: none;
+  }
+  li:last-child {
+    
+    display: block;
+  }
+  a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 1.2rem;
+  }
+  #nav-checkbox:checked ~ ul.nav-menu li {
+    display: block;
+  }
+  #nav-checkbox:checked ~ label.nav-toggle .close {
+    display: block;
+  }
+  #nav-checkbox:checked ~ label.nav-toggle .menu {
+    display: none;
+  }
+  li:hover a {
+    color: rgb(112, 111, 111);
+  }
