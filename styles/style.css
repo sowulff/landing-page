@@ -116,8 +116,23 @@ li:hover a {
   }
   .nav-menu {
     flex-direction: row;
+    margin-top: 0;
   }
   .nav-menu li {
     display: block;
+  }
+
+  header img {
+    height: 170vh;
+  }
+
+  .logotype {
+    margin-top: 100px;
+  }
+}
+
+@media only screen and (min-width: 1064px) {
+  header img {
+    height: 200vh;
   }
 }
