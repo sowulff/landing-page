@@ -18,7 +18,10 @@ header img {
 
 header {
   position: relative;
+  display: flex;
+  justify-content: center;
 }
+
 .nav {
   position: absolute;
   justify-content: space-between;
@@ -72,6 +75,8 @@ svg {
 .logotype {
   width: 40%;
   padding-top: 50px;
+  margin-top: 50px;
+  position: absolute;
 }
 
 .hamburger-menu {
