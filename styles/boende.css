@@ -42,15 +42,15 @@
 }
 
 .box {
-  position: relative;
-  width: 90%;
-  margin: auto;
+  margin-top: 30px;
+  background-color: #ba9284;
+  margin: 5%;
+  padding: 100px;
+  text-align: center;
 }
 
-.box:after {
-  content: "";
-  display: block;
-  padding-bottom: 100%;
-  background-color: #ba9284;
-  margin-top: 20px;
+.last-pic img{
+  width: 100vw;
+  margin-top: 30px;
 }
+
