@@ -48,22 +48,29 @@ header img {
   .nav-checkbox {
     display: none;
   }
+  .nav-menu{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    
+  }
  
   .nav-menu li {
     list-style: none;
     display: none;
+
     
   }
   .logotype {
       width: 40%;
-      margin: 50px;
       padding-top: 50px;
+      
   }
   
   a {
     text-decoration: none;
     color: inherit;
-    font-size: 1.2rem;
+    
   }
   #nav-checkbox:checked ~ ul.nav-menu li {
     display: block;
@@ -78,8 +85,25 @@ header img {
     color: rgb(112, 111, 111);
   }
 
-  .menu-wrapper{
-    display: flex;
+  /* text on photo */
+  .welcome-text {
     
+    position: absolute;
+    bottom: 70px;
+    right: 24px;
+    width: 50%;
+  }
+  .welcome-text p {
     
+  }
+  @media only screen and (min-width: 850px) {
+    .nav-toggle {
+      display: none;
+    }
+    .nav-menu {
+      flex-direction: row;
+    }
+    .nav-menu li {
+      display: block;
+    }
   }
