@@ -1,0 +1,24 @@
+/* https://spin.atomicobject.com/2015/07/14/css-responsive-square/ */
+
+.image-wrapper-square {
+  position: relative;
+  width: 90%;
+  margin: auto;
+}
+
+.image-wrapper-square:after {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+}
+
+.image-wrapper-square img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.boende {
+  color: white;
+  font-family: Raleway;
+}
