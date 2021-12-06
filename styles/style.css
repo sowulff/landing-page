@@ -136,6 +136,12 @@ li:hover a {
     padding: 2rem;
     gap: 1rem;
   }
+  .reverse {
+    flex-direction: row-reverse;
+  }
+  .column {
+    flex-direction: column;
+  }
 }
 @media only screen and (min-width: 1064px) {
   header img {
