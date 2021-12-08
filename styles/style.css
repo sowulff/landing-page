@@ -110,6 +110,37 @@ li:hover a {
   width: 50%;
 }
 
+/* footer  */
+footer {
+  height: 20rem;
+  width: 100%;
+  background-color: #ba9284;
+
+  justify-content: center;
+}
+.svg-keys {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  display: flex;
+
+  justify-content: space-evenly;
+}
+.scr {
+  width: 6rem;
+}
+.camping {
+  width: 7rem;
+}
+ul li {
+  list-style: none;
+}
+ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
 @media only screen and (min-width: 850px) {
   .nav-toggle {
     display: none;
@@ -130,6 +161,7 @@ li:hover a {
     margin-top: 100px;
   }
 }
+
 @media only screen and (min-width: 740px) {
   section {
     display: flex;
