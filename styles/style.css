@@ -116,7 +116,11 @@ li:hover a {
   position: absolute;
   bottom: 70px;
   right: 24px;
-  width: 50%;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  text-align: end;
 }
 
 /* footer  */
@@ -195,6 +199,12 @@ ul {
   .nav {
     padding-top: 1rem;
     padding-right: 1rem;
+  }
+
+  .welcome-text {
+    bottom: 200px;
+    right: 24px;
+    font-size: larger;
   }
 }
 @media only screen and (min-width: 1064px) {
