@@ -125,7 +125,7 @@ li:hover a {
 
 /* footer  */
 footer {
-  height: 20rem;
+  height: 23rem;
   width: 100%;
   background-color: #ba9284;
 
@@ -230,10 +230,11 @@ ul {
     width: 400px;
   }
 }
-@media only screen and (min-width: 1064px) {
+@media only screen and (min-width: 1074px) {
   header img {
     height: 200vh;
   }
   .column .slides {
+    width: 500px;
   }
 }
