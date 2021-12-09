@@ -16,3 +16,14 @@ buttons.forEach((button) => {
     delete activeSlide.dataset.active;
   });
 });
+
+// Bakgrundfärg för navbar
+
+const navbar = document.querySelector(".nav");
+const hamburger = document.querySelector(".nav-checkbox");
+
+hamburger.addEventListener("click", navBackground);
+
+function navBackground() {
+  navbar.classList.toggle("nav-background");
+}

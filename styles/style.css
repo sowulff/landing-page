@@ -27,6 +27,9 @@ header {
   justify-content: space-between;
   display: flex;
   width: 100%;
+  background: rgba(0, 0, 0, 0);
+  transition-duration: 0.5s;
+  z-index: 1;
   /* padding: 1rem; */
 }
 
@@ -37,6 +40,10 @@ header {
 .nav-toggle {
   position: absolute;
   cursor: pointer;
+}
+
+.nav-background {
+  background-color: rgba(0, 0, 0, 0.6);
 }
 
 svg {
@@ -63,6 +70,7 @@ svg {
 .nav-menu {
   display: flex;
   flex-direction: column;
+  align-items: flex-end;
   text-align: right;
   gap: 1rem;
   margin-top: 50px;
@@ -98,8 +106,9 @@ a {
 #nav-checkbox:checked ~ label.nav-toggle .menu {
   display: none;
 }
+
 li:hover a {
-  color: rgb(112, 111, 111);
+  border-bottom: 1px solid white;
 }
 
 /* text on photo */
@@ -125,9 +134,7 @@ footer {
 .svg-keys {
   padding-top: 2rem;
   padding-bottom: 2rem;
-  display: flex;
-
-  justify-content: space-evenly;
+  margin-left: 8rem;
 }
 .scr {
   width: 6rem;
@@ -143,6 +150,10 @@ ul {
   flex-direction: column;
   align-items: center;
   gap: 8px;
+}
+
+.camping-key {
+  width: 150px;
 }
 
 @media only screen and (min-width: 850px) {
@@ -163,6 +174,10 @@ ul {
 
   .logotype {
     margin-top: 100px;
+  }
+
+  .svg-keys {
+    margin-top: 5rem;
   }
 }
 
@@ -188,10 +203,25 @@ ul {
   .box {
     width: 100%;
   }
+
+  .nav {
+    padding-top: 1rem;
+    padding-right: 1rem;
+  }
+
   .welcome-text {
     bottom: 200px;
     right: 24px;
     font-size: larger;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  footer ul {
+    margin: 100px;
   }
 }
 
