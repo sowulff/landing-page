@@ -171,6 +171,7 @@ ul {
     display: flex;
     padding: 2rem;
     gap: 1rem;
+    justify-content: center;
   }
   .reverse {
     flex-direction: row-reverse;
@@ -178,13 +179,14 @@ ul {
   .column {
     flex-direction: column;
   }
+  .column .slides {
+    width: 295px;
+  }
   .spelningar {
     position: absolute;
-    right: 150px;
-    top: 200px;
   }
   .box {
-    margin-bottom: 200px;
+    width: 100%;
   }
   .welcome-text {
     bottom: 200px;
@@ -192,8 +194,16 @@ ul {
     font-size: larger;
   }
 }
+
+@media only screen and (min-width: 940px) {
+  .column .slides {
+    width: 400px;
+  }
+}
 @media only screen and (min-width: 1064px) {
   header img {
     height: 200vh;
+  }
+  .column .slides {
   }
 }
