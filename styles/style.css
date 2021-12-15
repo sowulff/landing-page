@@ -128,7 +128,6 @@ footer {
   height: 23rem;
   width: 100%;
   background-color: #ba9284;
-
   justify-content: center;
 }
 .svg-keys {
@@ -197,9 +196,7 @@ ul {
   .column .slides {
     width: 295px;
   }
-  .spelningar {
-    position: absolute;
-  }
+
   .box {
     width: 100%;
   }

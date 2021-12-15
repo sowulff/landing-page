@@ -1,0 +1,38 @@
+.spelning-section {
+  padding: 2rem;
+  background-color: #ba9284;
+  margin-top: 2rem;
+}
+
+.spelning-section img {
+  width: 100%;
+}
+
+.spelning-section div {
+  margin-bottom: 2rem;
+}
+
+.spelning-text {
+}
+
+@media screen and (min-width: 800px) {
+  .spelning-section {
+    justify-content: space-around;
+    padding: 2rem;
+    margin: auto;
+  }
+
+  .spelning-section div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .spelning-section img {
+    width: 40%;
+  }
+
+  .spelning-text {
+    width: 90%;
+  }
+}
